@@ -11,7 +11,7 @@
 "
 " File:       tokyo-metro.vim
 " Maintainer: koirand <koirand.jp@gmail.com>
-" Modified:   2018-08-31 13:19+0900
+" Modified:   2018-10-22 01:59+0900
 " License:    MIT
 
 
@@ -32,9 +32,9 @@ let g:colors_name = expand('<sfile>:t:r')
 hi! ColorColumn cterm=NONE ctermbg=235 guibg=#1e2132
 hi! CursorColumn cterm=NONE ctermbg=235 guibg=#1e2132
 hi! CursorLine cterm=NONE ctermbg=235 guibg=#1e2132
-hi! Comment ctermfg=243 guifg=#6b7089 gui=italic cterm=italic
+hi! Comment cterm=italic ctermfg=243 gui=italic guifg=#6b7089
 hi! Constant ctermfg=141 guifg=#8b76d0
-hi! XMLConstant ctermfg=141 guifg=#8b76d0 gui=italic cterm=italic
+hi! XMLConstant cterm=italic ctermfg=141 gui=italic guifg=#8b76d0
 hi! Cursor ctermbg=252 ctermfg=234 guibg=#abadb3 guifg=#161821
 hi! CursorLineNr ctermbg=237 ctermfg=253 guibg=#2a3158 guifg=#cdd1e6
 hi! Delimiter ctermfg=252 guifg=#abadb3
@@ -64,7 +64,7 @@ hi! PmenuSbar ctermbg=236 guibg=#3d425b
 hi! PmenuSel ctermbg=240 ctermfg=255 guibg=#5b6389 guifg=#eff0f4
 hi! PmenuThumb ctermbg=251 guibg=#abadb3
 hi! PreProc ctermfg=180 guifg=#bca375
-hi! PreProcItalic ctermfg=180 guifg=#bca375 gui=italic cterm=italic
+hi! PreProcItalic cterm=italic ctermfg=180 gui=italic guifg=#bca375
 hi! Question ctermfg=180 guifg=#bca375
 hi! QuickFixLine ctermbg=236 ctermfg=252 guibg=#272c42 guifg=#abadb3
 hi! Search ctermbg=215 ctermfg=234 guibg=#e4b580 guifg=#392713
@@ -74,7 +74,7 @@ hi! SpellBad ctermbg=124 ctermfg=252 gui=undercurl guisp=#e24240
 hi! SpellCap ctermbg=137 ctermfg=252 gui=undercurl guisp=#f19a36
 hi! SpellLocal ctermbg=32 ctermfg=252 gui=undercurl guisp=#4399bb
 hi! SpellRare ctermbg=61 ctermfg=252 gui=undercurl guisp=#8b76d0
-hi! Statement ctermfg=41 gui=NONE  guifg=#56b88a
+hi! Statement ctermfg=41 gui=NONE guifg=#56b88a
 hi! StatusLine cterm=reverse ctermbg=234 ctermfg=245 gui=reverse guibg=#17171b guifg=#818596 term=reverse
 hi! StatusLineTerm cterm=reverse ctermbg=234 ctermfg=245 gui=reverse guibg=#17171b guifg=#818596 term=reverse
 hi! StatusLineNC cterm=reverse ctermbg=238 ctermfg=233 gui=reverse guibg=#3e445e guifg=#0f1117
@@ -82,7 +82,7 @@ hi! StatusLineTermNC cterm=reverse ctermbg=238 ctermfg=233 gui=reverse guibg=#3e
 hi! StorageClass ctermfg=41 guifg=#56b88a
 hi! String ctermfg=38 guifg=#4399bb
 hi! Structure ctermfg=41 guifg=#56b88a
-hi! JSSpecial ctermfg=41 guifg=#56b88a gui=italic cterm=italic
+hi! JSSpecial cterm=italic ctermfg=41 gui=italic guifg=#56b88a
 hi! TabLine cterm=NONE ctermbg=245 ctermfg=234 gui=NONE guibg=#818596 guifg=#17171b
 hi! TabLineFill cterm=reverse ctermbg=234 ctermfg=245 gui=reverse guibg=#17171b guifg=#818596
 hi! TabLineSel cterm=NONE ctermbg=234 ctermfg=252 gui=NONE guibg=#161821 guifg=#85878e
