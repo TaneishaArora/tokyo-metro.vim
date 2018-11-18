@@ -11,7 +11,7 @@
 "
 " File:       tokyo-metro.vim
 " Maintainer: koirand <koirand.jp@gmail.com>
-" Modified:   2018-10-22 01:59+0900
+" Modified:   2018-11-19 00:28+0900
 " License:    MIT
 
 
