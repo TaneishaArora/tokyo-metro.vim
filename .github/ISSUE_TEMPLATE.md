@@ -1,4 +1,4 @@
-<!-- Thank you for using Iceberg! -->
+<!-- Thank you for using tokyo-metro.vim! -->
 <!-- Make sure your environment before submitting a issue. -->
 Environment:
 - OS
